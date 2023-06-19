@@ -1,0 +1,17 @@
+.bg-link{
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &--aqua{
+    background-color: #A8D3E4;
+  }
+  &--blue{
+    background-color: #1479FF;
+  }
+  &__img{
+    width: 30px;
+  }
+}
