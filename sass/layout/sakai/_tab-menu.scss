@@ -1,0 +1,135 @@
+.tab-menu-price{
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 50px;
+  .p-tabview {
+    .p-tabview-nav{
+      background: transparent;
+      padding-bottom: 30px;
+    }
+    .p-tabview-panels{
+      background: transparent;
+      padding-left: 0;
+    }
+  }
+  .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    background: transparent;
+    margin-right: 30px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 25px;
+
+    font-family: "Gilroy",sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27.5px;
+    text-align: center;
+  }
+  .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    background-color: #1479FF;
+    color: white;
+  }
+  &__new-price{
+    color: #092C4C;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+  }
+  &__old-price{
+    color: #7E92A2;
+    font-size: 30.32px;
+    font-weight: 700;
+    line-height: 33.47px;
+    text-align: center;
+    text-decoration: revert;
+  }
+  &__description{
+    color: #526477;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    &--service{
+      color: #092C4C;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 25px;
+    }
+  }
+}
+
+.tabview-custom{
+  display: flex;
+  .p-tabview-content{
+    margin-right: 50px;
+  }
+  .p-tabview-panels{
+    background-color: transparent;
+  }
+  .p-tabview-nav{
+    flex-direction: column;
+    margin-right: 50px;
+    background-color: transparent;
+    border: none;
+  }
+  .p-tabview-nav li .p-tabview-nav-link{
+    background-color: transparent;
+    padding: 20px 100px 20px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    box-shadow: 0px 4px 9.5px 0px #46464614;
+  }
+  &__name{
+    color: #000000;
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.94px;
+    text-align: left;
+  }
+  &__prof{
+    color: #526477;
+    font-size: 16.93px;
+    font-weight: 600;
+    line-height: 27.94px;
+    text-align: left;
+  }
+  .p-avatar{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 20px;
+  }
+  &__caption{
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  &__description{
+    font-family: "Gilroy", sans-serif;
+    color: #526477;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27.94px;
+    text-align: left;
+  }
+  .star-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    & .star{
+      color: #FFE500;
+      font-size: 30px;
+      &:after{
+        content: '★';
+      }
+    }
+  }
+
+}
