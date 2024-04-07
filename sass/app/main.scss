@@ -1,0 +1,75 @@
+.caption{
+  color: #000000;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: left;
+  &--middle{
+    font-size: 48px;
+    line-height: 53.17px;
+  }
+  &--small{
+    font-size: 36px;
+  }
+}
+.description{
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  &--middle-gray{
+    color: #526477;
+    font-size: 16.93px;
+    font-weight: 600;
+    line-height: 27.94px;
+  }
+  &--middle{
+    font-size: 18px;
+  }
+}
+
+.our-program {
+  background-color: transparent;
+  border: none;
+  .p-accordion-header-text{
+    color: #526477;
+    font-family: "Gilroy";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 53.17px;
+    text-align: left;
+  }
+  .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon {
+    order: 1;
+    margin-left: 20px;
+  }
+  .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link .p-accordion-header-text{
+    color: #000000;
+  }
+  .p-accordion-header .p-accordion-header-link{
+      background-color: transparent !important;
+      border: none !important;
+  }
+  .p-accordion-content{
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.bg-out-container{
+  background-image: url('/public/layout/images/demo-version-img-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  height: 70vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__img{
+    width: 50%;
+    filter: drop-shadow(16px -16px 1px #00000033);
+
+  }
+
+}
