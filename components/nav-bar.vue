@@ -2,7 +2,7 @@
   <div class="px-4">
     <header class="flex justify-between items-center py-4 border-bottom-2 border-gray:50">
       <div class="flex items-center">
-        <img src="/layout/images/лого.svg" alt="logo">
+        <img src="/layout/images/logo.svg" alt="logo">
         <h1 class="logo-title">
           DentTish
         </h1>
@@ -24,7 +24,10 @@ useHead({
 const items = ref([
   {
     label: 'Домой',
-    activeClass: 'active'
+    activeClass: 'active',
+    command: () => {
+      router.push('/')
+    }
   },
   {
     label: 'Тур в системе',

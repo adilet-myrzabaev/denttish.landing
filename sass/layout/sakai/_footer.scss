@@ -1,8 +1,60 @@
-.layout-footer {
-    transition: margin-left $transitionDuration;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 1rem;
-    border-top: 1px solid var(--surface-border);
+.footer{
+    background-color: #000000;
+    padding-top: 95px;
+    padding-bottom: 20px;
+    &__logo-title{
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 35px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    &__logo-description{
+        color: #ffffff;
+        font-size: 16.93px;
+        font-weight: 600;
+        line-height: 27.94px;
+        text-align: left;
+    }
+}
+.list-menu{
+    list-style: none;
+    &__caption{
+        color: #ffffff;
+        font-size: 18.87px;
+        font-weight: 700;
+        line-height: 23.59px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    &__description{
+        color: #ffffff;
+        font-family: "Gilroy", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23.59px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    &--tariff{
+        display: flex;
+        flex-direction: column;
+        & > li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .bg-img{
+            width: 30px;
+            height: 30px;
+            background-color: #1479FF;
+            border-radius: 50%;
+            margin-right: 10px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }

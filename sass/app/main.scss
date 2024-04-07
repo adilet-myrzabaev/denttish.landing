@@ -73,3 +73,35 @@
   }
 
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding-right: 150px;
+  .p-inputtext{
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1.5px solid #092C4C;
+    padding-left: 0;
+    margin-bottom: 20px;
+
+    color: #7E92A2;
+    font-family: "Gilroy",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    &::placeholder{
+      color: #7E92A2;
+      font-family: "Gilroy",sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    &:hover, &:focus{
+      border-color: #092C4C;
+      box-shadow: none;
+    }
+  }
+}
