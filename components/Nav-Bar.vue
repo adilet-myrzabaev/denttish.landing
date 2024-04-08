@@ -34,15 +34,18 @@ const items = ref([
     activeClass: ''
   },
   {
-    label: 'Отзывы',
+    label: 'Цена',
     activeClass: '',
     command: () => {
-      router.push('/reviews')
+      router.push('/prices')
     }
   },
   {
     label: 'Поддержка',
-    activeClass: ''
+    activeClass: '',
+    command: () => {
+      router.push('/support')
+    }
   }
 ])
 </script>

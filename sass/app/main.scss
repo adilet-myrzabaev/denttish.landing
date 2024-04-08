@@ -11,6 +11,13 @@
   &--small{
     font-size: 36px;
   }
+  &--support{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27.5px;
+    text-align: left;
+  }
 }
 .description{
   color: #000000;
@@ -26,6 +33,13 @@
   &--middle{
     font-size: 18px;
   }
+  &--support{
+    color: #526477;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+  }
 }
 
 .our-program {
@@ -33,7 +47,7 @@
   border: none;
   .p-accordion-header-text{
     color: #526477;
-    font-family: "Gilroy";
+    font-family: "Gilroy",sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 53.17px;
@@ -103,5 +117,35 @@
       border-color: #092C4C;
       box-shadow: none;
     }
+  }
+  &--tariff{
+    padding-right: 0;
+    margin-bottom: 0;
+    .p-component{
+      width: 100%;
+    }
+  }
+}
+.star-group{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  & .star{
+    color: #FFE500;
+    font-size: 30px;
+    &:after{
+      content: '★';
+    }
+  }
+}
+.main-dialog{
+  .p-dialog-header .p-dialog-title{
+    color: #000000;
+    font-family: "Gilroy", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+
   }
 }

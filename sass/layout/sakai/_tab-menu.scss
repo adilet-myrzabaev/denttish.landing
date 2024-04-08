@@ -120,17 +120,4 @@
     line-height: 27.94px;
     text-align: left;
   }
-  .star-group{
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    & .star{
-      color: #FFE500;
-      font-size: 30px;
-      &:after{
-        content: '★';
-      }
-    }
-  }
-
 }
