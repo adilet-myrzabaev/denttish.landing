@@ -1,0 +1,64 @@
+.tour-system{
+  display: flex;
+  & .p-tabview-nav{
+    flex-direction: column;
+    margin-right: 30px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 20px;
+    .p-tabview-nav-link{
+      border: none 0;
+      border-radius: 10px !important;
+      padding: 18px 20px;
+      &:hover{
+        background-color: #F5F6F8 !important;
+      }
+      p{
+        white-space: nowrap;
+      }
+    }
+  }
+  & .p-tabview-nav li .p-tabview-nav-link {
+      color: #526477;
+      border: none;
+
+    &  p{
+      font-family: "Gilroy", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: left;
+    }
+
+  }
+  .p-tabview-nav  li.p-highlight .p-tabview-nav-link, .p-tabview-nav  li.p-highlight svg path{
+    color: #000000;
+    stroke: #000000;
+  }
+  & .p-tabview-panels{
+    border-radius: 20px;
+    padding: 40px 45px;
+  }
+  &__caption{
+    font-family: "Gilroy", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+  &__description{
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  &__img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 30px;
+  }
+}

@@ -166,36 +166,9 @@
       </div>
     </section>
     <!--  more about us  -->
-    <section class="px-4">
-      <div class="grid">
-        <div class="col-12 md:col-7 ">
-          <img src="/layout/images/more.png" alt="">
-        </div>
-        <div class="col-12 md:col-5 ">
-          <div>
-            <h2 class="caption caption--small mb-3 line-height-2">
-              Хотите узнать больше про возможности DentTish для вашей стоматологии?
-            </h2>
-            <p class="description description--middle description--middle-gray mb-5">
-              Оставьте заявку для бесплатной онлайн-презентации
-            </p>
-            <form class="form" action="">
-              <InputText placeholder="Имя" />
-              <InputNumber placeholder="Телефон" />
-              <InputText placeholder="Email" />
-            </form>
-            <Button class="btn btn-link btn-link--gray">
-              <span class="btn-link__caption">Отправить заявку</span>
-              <div class="bg-link bg-link--blue">
-                <img class="bg-link__img" src="/layout/images/Arrow-white.svg" alt="">
-              </div>
-            </Button>
-          </div>
-        </div>
-      </div>
-    </section>
+    <more-about-us />
     <!--  tariff  -->
-    <tarrif />
+    <tariff />
     <!--  reviews  -->
     <section class="px-4">
       <div class="flex items-center justify-between mb-6">
@@ -355,6 +328,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import Tarrif from '../components/tariff-menu.vue'
+import Tariff from '../components/tariff-menu.vue'
+import MoreAboutUs from '../components/more-about-us.vue'
 </script>
 <style scoped></style>

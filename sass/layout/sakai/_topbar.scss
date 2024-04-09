@@ -1,6 +1,6 @@
 .logo-title{
   color: black;
-  font-family: "Gilroy";
+  font-family: "Gilroy",sans-serif;
   font-size: 36px;
   font-weight: 900;
   line-height: 35px;
@@ -18,17 +18,17 @@
   }
   .p-menuitem-text{
     color: #526477;
-    font-family: "Gilroy";
+    font-family: "Gilroy", sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
     text-align: left;
   }
   .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover .p-menuitem-text{
-    color: black;
+    color: #000000 !important;
   }
   .p-menubar-root-list > .p-focus:not(.p-highlight):not(.p-disabled) > .p-menuitem-content .p-menuitem-text {
-    color: black;
+    color: #000000 !important;
     text-decoration: underline 2px;
   }
   .p-menubar-root-list{

@@ -8,7 +8,7 @@
         </h1>
       </div>
       <Menubar class="navbar-menu" :model="items" />
-      <Button class="btn btn-primary">
+      <Button class="btn btn-primary" @click="signInSystem">
         Войти в систему
       </Button>
     </header>
@@ -19,7 +19,7 @@
 const router = useRouter()
 
 useHead({
-  title: 'Denttish'
+  title: 'Denttish | Docs'
 })
 const items = ref([
   {
@@ -31,7 +31,10 @@ const items = ref([
   },
   {
     label: 'Тур в системе',
-    activeClass: ''
+    activeClass: '',
+    command: () => {
+      router.push('/tourSystem')
+    }
   },
   {
     label: 'Цена',
@@ -48,6 +51,9 @@ const items = ref([
     }
   }
 ])
+const signInSystem = () => {
+  window.open('https://denttish.dev/')
+}
 </script>
 
 <style scoped>

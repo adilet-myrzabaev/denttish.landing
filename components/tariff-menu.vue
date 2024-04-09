@@ -340,23 +340,23 @@
           :style="{ width: '50rem' }"
           class="main-dialog"
         >
-          <div class="grid mt-2">
-            <div class="col-12 md:col-6">
+          <div class="grid mt-2 border-top-1 pt-5">
+            <div class="col-12 md:col-6 pl-0">
               <form class="form form--tariff">
                 <InputText class="w-full" placeholder="Имя" />
               </form>
             </div>
-            <div class="col-12 md:col-6">
+            <div class="col-12 md:col-6 pr-0">
               <form action="" class="form form--tariff">
                 <InputNumber placeholder="Номер телефона" />
               </form>
             </div>
-            <div class="col-12 md:col-6">
+            <div class="col-12 md:col-6 pl-0">
               <form action="" class="form form--tariff">
                 <InputText placeholder="Электронная почта" />
               </form>
             </div>
-            <div class="col-12 md:col-6">
+            <div class="col-12 md:col-6 pr-0">
               <form action="" class="form form--tariff">
                 <InputText placeholder="Названия клиника" />
               </form>

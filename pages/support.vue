@@ -13,8 +13,8 @@
             <p class="description description--middle description--middle-gray mb-6">
               На поддержке DentTish могут быть предоставлены следующие возможности:
             </p>
-            <Button class="btn btn-link">
-              <span class="btn-link__caption">Попробовать демо версию</span>
+            <Button class="btn btn-link" @click="visible = true">
+              <span class="btn-link__caption">Задайте вопрос поддержки</span>
               <div class="bg-link bg-link--aqua">
                 <img class="bg-link__img" src="/layout/images/Arrow-black.svg" alt="">
               </div>
@@ -22,11 +22,39 @@
           </div>
         </div>
       </div>
+      <Dialog
+        v-model:visible="visible"
+        modal
+        header="Вопрос поддержки"
+        :style="{ width: '50rem' }"
+        class="main-dialog"
+      >
+        <div class="grid mt-2 border-top-1 pt-5">
+          <div class="col-12 md:col-6 pl-0">
+            <form class="form form--tariff">
+              <InputText class="w-full" placeholder="Имя" />
+            </form>
+          </div>
+          <div class="col-12 md:col-6 pr-0">
+            <form action="" class="form form--tariff">
+              <InputText placeholder="Электронная почта" />
+            </form>
+          </div>
+          <div class="col-12 px-0">
+            <form action="" class="form form--tariff">
+              <InputText placeholder="Ваш запрос" />
+            </form>
+          </div>
+        </div>
+        <div class="flex justify-content-end gap-2">
+          <Button type="button" label="Отправить" class="btn btn-primary border-round-2xl" @click="visible = false" />
+        </div>
+      </Dialog>
     </section>
     <section class="px-4">
       <div class="grid">
         <div class="col-12 md:col-4">
-          <div class="card card--support">
+          <div class="card card--support justify-content-start">
             <img src="/layout/icons/headphones-icon.svg" alt="">
             <h4 class="caption caption--support">
               Техническая Поддержка:
@@ -37,9 +65,9 @@
           </div>
         </div>
         <div class="col-12 md:col-4">
-          <div class="card card--support">
+          <div class="card card--support justify-content-start">
             <img src="/layout/icons/clock-24-icon.svg" alt="">
-            <h4 class="caption caption--support">
+            <h4 class="caption caption--support ">
               Онлайн обучение
             </h4>
             <p class="description description--support">
@@ -48,7 +76,7 @@
           </div>
         </div>
         <div class="col-12 md:col-4">
-          <div class="card card--support">
+          <div class="card card--support justify-content-start">
             <img src="/layout/icons/tv-code-icon.svg" alt="">
             <h4 class="caption caption--support">
               Консультации по Функционалу:
@@ -60,13 +88,99 @@
         </div>
       </div>
     </section>
+    <more-about-us />
+    <section class="px-4">
+      <div class="grid">
+        <div class="col-12 md:col-3">
+          <div class="card card--support">
+            <img src="/layout/icons/Instagram-blue-icon.svg" alt="">
+            <h4 class="caption caption--support caption--support-darkblue">
+              DentTish Dev
+            </h4>
+            <p class="description--support description--support-small">
+              Свежые новости и акции в инстаграме посмотрите и подпишитесь
+            </p>
+            <Button class="btn btn-link btn-link--aqua">
+              <span class="btn-link__caption">Посмотреть</span>
+              <div class="bg-link bg-link--blue">
+                <img class="bg-link__img" src="/layout/images/Arrow-white.svg" alt="">
+              </div>
+            </Button>
+          </div>
+        </div>
+        <div class="col-12 md:col-3">
+          <div class="card card--support">
+            <img src="/layout/icons/whatsapp-blue-icon.svg" alt="">
+            <h4 class="caption caption--support caption--support-darkblue">
+              +996553 871 595
+            </h4>
+            <p class="description--support description--support-small">
+              Задать прямой вопрос тех поддержке
+            </p>
+            <Button class="btn btn-link btn-link--aqua">
+              <span class="btn-link__caption">Написать</span>
+              <div class="bg-link bg-link--blue">
+                <img class="bg-link__img" src="/layout/images/Arrow-white.svg" alt="">
+              </div>
+            </Button>
+          </div>
+        </div>
+        <div class="col-12 md:col-3">
+          <div class="card card--support">
+            <img src="/layout/icons/youtube-blue-icon.svg" alt="">
+            <h4 class="caption caption--support caption--support-darkblue">
+              DentTish Dev
+            </h4>
+            <p class="description--support description--support-small">
+              Наши видео уроки
+            </p>
+            <Button class="btn btn-link btn-link--aqua">
+              <span class="btn-link__caption">Посмотреть</span>
+              <div class="bg-link bg-link--blue">
+                <img class="bg-link__img" src="/layout/images/Arrow-white.svg" alt="">
+              </div>
+            </Button>
+          </div>
+        </div>
+        <div class="col-12 md:col-3">
+          <div class="card card--support">
+            <img src="/layout/icons/tiktok-blue-icon.svg" alt="">
+            <h4 class="caption caption--support caption--support-darkblue">
+              DentTish Dev
+            </h4>
+            <p class="description--support description--support-small">
+              Наши отзывы и конкурсы
+            </p>
+            <Button class="btn btn-link btn-link--aqua ">
+              <span class="btn-link__caption">Посмотреть</span>
+              <div class="bg-link bg-link--blue">
+                <img class="bg-link__img" src="/layout/images/Arrow-white.svg" alt="">
+              </div>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script setup lang="ts">
-
+import MoreAboutUs from '../components/more-about-us.vue'
+const visible = ref(false)
 </script>
 
 <style scoped>
-
+.card--support{
+  .bg-link{
+    width: 32px;
+    height: 32px;
+    & > img {
+      width: 15px;
+    }
+  }
+  .btn-link__caption{
+    font-size: 14px;
+    margin-right: 50px;
+  }
+}
 </style>

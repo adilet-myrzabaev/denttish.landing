@@ -17,6 +17,12 @@
     font-weight: 600;
     line-height: 27.5px;
     text-align: left;
+    &-small{
+      font-size: 14px;
+    }
+    &-darkblue{
+      color: #092C4C;
+    }
   }
 }
 .description{
@@ -139,6 +145,9 @@
   }
 }
 .main-dialog{
+  .p-dialog-header{
+    padding: 20px 30px 0 30px;
+  }
   .p-dialog-header .p-dialog-title{
     color: #000000;
     font-family: "Gilroy", sans-serif;
@@ -146,6 +155,8 @@
     font-weight: 600;
     line-height: 40px;
     text-align: left;
-
+  }
+  .p-dialog-content{
+    padding: 0 30px 30px 30px;
   }
 }
