@@ -5,6 +5,30 @@
         <TabPanel>
           <template #header>
             <div class="flex align-items-center gap-2">
+              <i class="pi pi-sign-in text-2xl" />
+              <p>Вход систему</p>
+            </div>
+          </template>
+          <div>
+            <h2 class="tour-system__caption">
+              Вход в систему
+            </h2>
+            <p class="tour-system__description">
+              Откройте веб-браузер и введите URL “denttish.dev”  CRM-системы в адресной строке.
+              или можете через сайта есть кнопка верхнем правом углу
+            </p>
+            <img src="/layout/images/group1.png" alt="" class="tour-system__img">
+            <p class="tour-system__description">
+              Введите ваш логин и пароль в соответствующие поля на странице входа.
+              Нажмите кнопку "Вход" или нажмите клавишу Enter.
+              При успешном входе вы окажетесь на главной странице CRM-системы, готовые к работе
+            </p>
+            <img src="/layout/images/group2.png" alt="" class="tour-system__img">
+          </div>
+        </TabPanel>
+        <TabPanel>
+          <template #header>
+            <div class="flex align-items-center gap-2">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8 17L1 21V5L8 1M8 17L15 21M8 17V1M15 21L21 17V1L15 5M15 21V5M15 5L8 1" stroke="#526477" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
@@ -95,19 +119,17 @@
             </div>
           </template>
           <div>
-            <h4 class="tabview-custom__caption">
-              “Система “Denttish”
-            </h4>
-            <div class="star-group">
-              <span class="star" />
-              <span class="star" />
-              <span class="star" />
-              <span class="star" />
-              <span class="star" />
-            </div>
-            <p class="tabview-custom__description">
-              "Система "Denttish" для стоматологических клиник просто супер!  Она помогает нам легко записывать пациентов, вести их медицинские карты и даже управлять финансами. Удобный интерфейс делает  работу очень простой. Эта программа стала нашим помощником, и я всем своим коллегам стоматологам советую использовать "Denttish" - уверен, они оценят, как легко с ней работать. Мы больше не тратим массу времени на рутинные задачи, такие как учет пациентов или составление отчетности. Система автоматизирует эти процессы, освобождая нам время для более важных аспектов работы с пациентами."
+            <p class="tour-system__description">
+              Для того, чтобы создать услугу (прайс), необходимо перейти в раздел «Услуги». Затем нажимаете кнопку «Добавить»:
             </p>
+            <img src="/layout/images/group5.png" alt="" class="tour-system__img">
+            <h2 class="tour-system__caption">
+              Появится всплывающее окно.
+            </h2>
+            <p class="tour-system__description">
+              Заполняете его по образцу на рисунке ниже:
+            </p>
+            <img src="/layout/images/group6.png" alt="" class="tour-system__img">
           </div>
         </TabPanel>
         <TabPanel>
@@ -120,18 +142,16 @@
             </div>
           </template>
           <div>
-            <h4 class="tabview-custom__caption">
-              “Ыраазычылык билдирем”
-            </h4>
-            <div class="star-group">
-              <span class="star" />
-              <span class="star" />
-              <span class="star" />
-              <span class="star" />
-              <span class="star" />
-            </div>
-            <p class="tabview-custom__description">
-              Бул сайтты ишке ашыргандарга ыраазылык билдирем. Аябай жакшы программа болуптур. Стоматологдордун кыйналып кылган иштерин жеңилдетет экен. Excel деген нерседен кутулуп жакшы болбодубу. Каалаган форматта отчётторду көчүрүп алсаң болот экен, пациенттерге кабар таратуу бизде аябай кыйын иш эле, бул жакта бир бассаң эле болуп калат экен, тушунуктуу, кыскача, ыңгайлуу, аябай сонун болуптур. Башка клиникаларга сунуштайт элем.16:32
+            <p class="tour-system__description">
+              После проведения услуги, необходимо провести оплату. Для проведения оплаты в Календаре нужно нажать на запись пациента и затем нажать на кнопку «Принять оплату»:
+            </p>
+            <img src="/layout/images/group3.png" alt="" class="tour-system__img">
+            <p class="tour-system__description">
+              Выбираете нужную услугу и нажимаете на нее. Затем в поле Оплата заполняете сумму оплаты, далее выбираете форму оплаты (Наличные Безнал, Перевод на карту, Страховка, Депозит) и нажимаете «Произвести оплату»:
+            </p>
+            <img src="/layout/images/group4.png" alt="" class="tour-system__img">
+            <p class="tour-system__description">
+              После нажатия кнопки «Произвести оплату» выскочит меню «Оплата указанных услуг». Там можно распечатать квитанцию, счет и акт:
             </p>
           </div>
         </TabPanel>
@@ -173,23 +193,21 @@
               <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17 11.5V5.8C17 4.11984 17 3.27976 16.673 2.63803C16.3854 2.07354 15.9265 1.6146 15.362 1.32698C14.7202 1 13.8802 1 12.2 1H5.8C4.11984 1 3.27976 1 2.63803 1.32698C2.07354 1.6146 1.6146 2.07354 1.32698 2.63803C1 3.27976 1 4.11984 1 5.8V16.2C1 17.8802 1 18.7202 1.32698 19.362C1.6146 19.9265 2.07354 20.3854 2.63803 20.673C3.27976 21 4.11984 21 5.8 21H9M11 10H5M7 14H5M13 6H5M11.5 18L13.5 20L18 15.5" stroke="#526477" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
-              <p>Прайс</p>
+              <p>Создание персонала</p>
             </div>
           </template>
           <div>
-            <h4 class="tabview-custom__caption">
-              “Ыраазычылык билдирем”
-            </h4>
-            <div class="star-group">
-              <span class="star" />
-              <span class="star" />
-              <span class="star" />
-              <span class="star" />
-              <span class="star" />
-            </div>
-            <p class="tabview-custom__description">
-              Бул сайтты ишке ашыргандарга ыраазылык билдирем. Аябай жакшы программа болуптур. Стоматологдордун кыйналып кылган иштерин жеңилдетет экен. Excel деген нерседен кутулуп жакшы болбодубу. Каалаган форматта отчётторду көчүрүп алсаң болот экен, пациенттерге кабар таратуу бизде аябай кыйын иш эле, бул жакта бир бассаң эле болуп калат экен, тушунуктуу, кыскача, ыңгайлуу, аябай сонун болуптур. Башка клиникаларга сунуштайт элем.16:32
+            <h2 class="tour-system__caption">
+              Появится всплывающее окно.
+            </h2>
+            <p class="tour-system__description">
+              Заполняете его по образцу на рисунке ниже:
             </p>
+            <img src="/layout/images/group7.png" alt="" class="tour-system__img">
+            <p class="tour-system__description">
+              Затем заполняете карточку (обязательные поля обозначены *). Пример заполнения карточки доктора показано на рисунках ниже:
+            </p>
+            <img src="/layout/images/group8.png" alt="" class="tour-system__img">
           </div>
         </TabPanel>
         <TabPanel>
@@ -202,7 +220,6 @@
             </div>
           </template>
         </TabPanel>
-        <p>lll</p>
       </TabView>
     </section>
   </div>
