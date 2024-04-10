@@ -1,15 +1,16 @@
 <template>
   <div class="px-4">
-    <header class="flex justify-between items-center py-4 border-bottom-2 border-gray:50">
+    <header class="flex justify-between items-center py-4 sm:border-bottom-2 sm:border-gray:50">
       <div class="flex items-center">
-        <img src="/layout/images/logo.svg" alt="logo">
+        <Menubar class="navbar-menu flex md:hidden" :model="items" />
+        <img class="logo-img" src="/layout/images/logo.svg" alt="logo">
         <h1 class="logo-title">
           DentTish
         </h1>
       </div>
-      <Menubar class="navbar-menu" :model="items" />
-      <Button class="btn btn-primary" @click="signInSystem">
-        Войти в систему
+      <Menubar class="navbar-menu hidden md:flex" :model="items" />
+      <Button class="btn btn-primary flex" @click="signInSystem">
+        Войти <span class="hidden md:flex">в систему</span>
       </Button>
     </header>
   </div>

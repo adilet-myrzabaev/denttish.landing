@@ -160,3 +160,24 @@
     padding: 0 30px 30px 30px;
   }
 }
+.border-round-4xl{
+  border-radius: 32px;
+}
+
+@media screen and (max-width: 414px) {
+  .caption{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .description{
+    &--mobile{
+      color: #526477;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      span{
+        color: #1479FF;
+      }
+    }
+  }
+}

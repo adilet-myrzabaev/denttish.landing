@@ -6,14 +6,14 @@
         <div class="col-12 md:col-5">
           <img class="w-full" src="/layout/images/banner.png" alt="banner">
         </div>
-        <div class="col-12 md:col-7 pl-7">
+        <div class="col-12 md:col-7 md:pl-7">
           <div class="flex flex-column h-full justify-center">
             <h1 class="caption mb-5">
               Управляйте <br>
               улыбками с легкостью
             </h1>
-            <p class="description mb-6">
-              Denttish обеспечивает эффективное управление графиком приемов, мгновенную связь с врачами, персонализированное обслуживание и надежное хранение медицинских данных для вашего комфорта и безопасности.
+            <p class="description description--mobile mb-6">
+              <span>Denttish</span> обеспечивает эффективное управление графиком приемов, мгновенную связь с врачами, персонализированное обслуживание и надежное хранение медицинских данных для вашего комфорта и безопасности.
             </p>
             <Button class="btn btn-link">
               <span class="btn-link__caption">Попробовать демо версию</span>
@@ -26,8 +26,8 @@
       </div>
     </section>
     <!--  potential our program  -->
-    <section class="px-5">
-      <div class="grid" style="background-color: #D6E2E0; border-radius: 32px;padding: 78px 80px">
+    <section class="sm:px-5">
+      <div class="grid sm:border-round-4xl px-3 py-6" style="background-color: #D6E2E0; padding: 78px 80px">
         <div class="col-12 md:col-7">
           <div class="h-full flex flex-column h-full justify-center">
             <h1 class="caption caption--middle mb-4">
@@ -46,7 +46,7 @@
         </div>
         <div class="col-12 md:col-5">
           <div class="grid">
-            <div class="col-12 md:col-6 pr-4 pb-4">
+            <div class="col-6 md:pr-4 md:pb-4">
               <div class="card">
                 <div class="bg-link bg-link--aqua">
                   <img class="bg-link__img" src="/layout/images/check.svg" alt="">
@@ -56,7 +56,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 md:col-6 pl-4 pb-4">
+            <div class="col-6 md:pl-4 md:pb-4">
               <div class="card">
                 <div class="bg-link bg-link--aqua">
                   <img class="bg-link__img" src="/layout/images/msg.svg" alt="">
@@ -67,7 +67,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 md:col-6 pr-4 pt-4">
+            <div class="col-6 md:pr-4 md:pt-4">
               <div class="card">
                 <div class="bg-link bg-link--aqua">
                   <img class="bg-link__img" src="/layout/images/setka.svg" alt="">
@@ -78,7 +78,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 md:col-6 pl-4 pt-4">
+            <div class="col-6 md:pl-4 md:pt-4">
               <div class="card">
                 <div class="bg-link bg-link--aqua">
                   <img class="bg-link__img" src="/layout/images/calculator.svg" alt="">
@@ -94,7 +94,7 @@
     </section>
     <!--  our program  -->
     <section class="px-4" style="overflow: hidden">
-      <h1 class="caption caption--middle mb-8 mx-auto text-center w-5">
+      <h1 class="caption caption--middle mb-8 mx-auto md:text-center md:w-5">
         Кому предназначена
         наш программа?
       </h1>

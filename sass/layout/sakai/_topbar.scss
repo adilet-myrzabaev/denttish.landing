@@ -31,7 +31,34 @@
     color: #000000 !important;
     text-decoration: underline 2px;
   }
-  .p-menubar-root-list{
+  .p-menubar-root-list {
     gap: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-menu .p-menubar-root-list{
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-menu .p-menubar-root-list{
+    width: 200px;
+    gap: 0;
+  }
+}
+@media screen and (max-width: 414px) {
+  .logo-img{
+    width: 30px;
+  }
+  .logo-title{
+    font-size: 18px;
+  }
+  .btn-primary{
+    font-size: 12px !important;
+  }
+  .p-menubar{
+    padding-left: 0;
   }
 }
