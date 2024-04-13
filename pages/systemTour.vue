@@ -53,70 +53,70 @@ const youtube = () => {
               Вся информация по пациенту консолидируется в единой карточке.
               Визиты, история лечения, документы, оплаты, депозит и бонусы, снимки, договора и согласия, печать 043 и 058 карточки, актов и многое другое.
             </p>
-            <img src="/layout/images/image%2025.png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25.png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Карточка пациента - Зубная формула
             </h2>
             <p class="tour-system__description">
               Зубная формула консолидирует всю информацию из лечений, а также на основании первичного осмотра.
             </p>
-            <img src="/layout/images/image%2025(1).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(1).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Карточка пациента - Оплаты
             </h2>
             <p class="tour-system__description">
               Все оплаты пациента - в одном месте. Печать чека или квитанции в один клик.
             </p>
-            <img src="/layout/images/image%2025(2).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(2).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Карточка пациента - Планы лечений
             </h2>
             <p class="tour-system__description">
               Составляйте легко и просто - сложные планы лечений, который состоят из этапов, отслеживайте перемещение пациента с одного этапа на другой этап. Применяйте план лечение при создании акта лечения.
             </p>
-            <img src="/layout/images/image%2025(3).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(3).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Карточка пациента - Снимки
             </h2>
             <p class="tour-system__description">
               Загружаете снимки до и после, рентен и панорамные снимки в формате JPG, GIF, PNG, а на тяжелые снимки сохраняйте ссылки.
             </p>
-            <img src="/layout/images/image%2025(4).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(4).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Персонал
             </h2>
             <p class="tour-system__description">
               Управляйте персоналом, создавайте графики работ, устанавливайте виды начисления зарплат.
             </p>
-            <img src="/layout/images/image%2025(5).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(5).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Услуги и прайс-лист
             </h2>
             <p class="tour-system__description">
               Управляйте прайс-листом, закрепляйте материалы, которые будут автоматически списываться со склада при оказании услуги, устанавливайте индивидуальные % и ставки на услуги и категории.
             </p>
-            <img src="/layout/images/image%2025(6).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(6).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Предварительный прейскурант
             </h2>
             <p class="tour-system__description">
               На этой странице вы можете выстовить минимальные и максимальные цены на ваши услуги. Это удобно тем что при предворительной консультации вы можете показать поциенту минимальную и максимальную сумму лечения.
             </p>
-            <img src="/layout/images/image%2025(7).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(7).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Редактировать
             </h2>
             <p class="tour-system__description">
               Нажав на три точки справа вы войдете в меню редактирования цен
             </p>
-            <img src="/layout/images/image%2025(8).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(8).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Обнавить данные
             </h2>
             <p class="tour-system__description">
               На этом меню вы можете написать название услуги его максимальную и минимальную цену. Кнопкой “добавить элемент” вы можете определить котегорию услуги.
             </p>
-            <img src="/layout/images/image%2026.png" alt="" class="tour-system__img">
+            <img src="/layout/images/image26.png" alt="" class="tour-system__img">
           </div>
         </TabPanel>
         <TabPanel>
@@ -178,20 +178,20 @@ const youtube = () => {
             <p class="tour-system__description">
               Чтобы записать пациента на прием, перейдите в раздел «Календарь». Перед вами появится график работы доктора на сегодняшний день.
             </p>
-            <img src="/layout/images/image%2025(9).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(9).png" alt="" class="tour-system__img">
             <p class="tour-system__description">
               Затем заполняете карточку (обязательные поля обозначены *). Пример заполнения карточки доктора показано на рисунках ниже:
             </p>
-            <img src="/layout/images/image%2025(10).png" alt="" class="tour-system__img">
-            <img src="/layout/images/image%2025(11).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(10).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(11).png" alt="" class="tour-system__img">
             <p class="tour-system__description">
               Затем заполняете карточку (обязательные поля обозначены *). Пример заполнения карточки доктора показано на рисунках ниже:
             </p>
-            <img src="/layout/images/image%2025(12).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(12).png" alt="" class="tour-system__img">
             <p class="tour-system__description">
               Затем заполняете карточку (обязательные поля обозначены *). Пример заполнения карточки доктора показано на рисунках ниже:
             </p>
-            <img src="/layout/images/image%2025(13).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(13).png" alt="" class="tour-system__img">
             <p class="tour-system__description">
               Затем заполняете карточку (обязательные поля обозначены *). Пример заполнения карточки доктора показано на рисунках ниже:
             </p>
@@ -278,70 +278,70 @@ const youtube = () => {
               Вся информация по пациенту консолидируется в единой карточке.
               Визиты, история лечения, документы, оплаты, депозит и бонусы, снимки, договора и согласия, печать 043 и 058 карточки, актов и многое другое.
             </p>
-            <img src="/layout/images/image%2025.png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25.png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Карточка пациента - Зубная формула
             </h2>
             <p class="tour-system__description">
               Зубная формула консолидирует всю информацию из лечений, а также на основании первичного осмотра.
             </p>
-            <img src="/layout/images/image%2025(1).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(1).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Карточка пациента - Оплаты
             </h2>
             <p class="tour-system__description">
               Все оплаты пациента - в одном месте. Печать чека или квитанции в один клик.
             </p>
-            <img src="/layout/images/image%2025(2).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(2).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Карточка пациента - Планы лечений
             </h2>
             <p class="tour-system__description">
               Составляйте легко и просто - сложные планы лечений, который состоят из этапов, отслеживайте перемещение пациента с одного этапа на другой этап. Применяйте план лечение при создании акта лечения.
             </p>
-            <img src="/layout/images/image%2025(3).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(3).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Карточка пациента - Снимки
             </h2>
             <p class="tour-system__description">
               Загружаете снимки до и после, рентен и панорамные снимки в формате JPG, GIF, PNG, а на тяжелые снимки сохраняйте ссылки.
             </p>
-            <img src="/layout/images/image%2025(4).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(4).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Персонал
             </h2>
             <p class="tour-system__description">
               Управляйте персоналом, создавайте графики работ, устанавливайте виды начисления зарплат.
             </p>
-            <img src="/layout/images/image%2025(5).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(5).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Услуги и прайс-лист
             </h2>
             <p class="tour-system__description">
               Управляйте прайс-листом, закрепляйте материалы, которые будут автоматически списываться со склада при оказании услуги, устанавливайте индивидуальные % и ставки на услуги и категории.
             </p>
-            <img src="/layout/images/image%2025(6).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(6).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Предварительный прейскурант
             </h2>
             <p class="tour-system__description">
               На этой странице вы можете выстовить минимальные и максимальные цены на ваши услуги. Это удобно тем что при предворительной консультации вы можете показать поциенту минимальную и максимальную сумму лечения.
             </p>
-            <img src="/layout/images/image%2025(7).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(7).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Редактировать
             </h2>
             <p class="tour-system__description">
               Нажав на три точки справа вы войдете в меню редактирования цен
             </p>
-            <img src="/layout/images/image%2025(8).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(8).png" alt="" class="tour-system__img">
             <h2 class="tour-system__caption">
               Обнавить данные
             </h2>
             <p class="tour-system__description">
               На этом меню вы можете написать название услуги его максимальную и минимальную цену. Кнопкой “добавить элемент” вы можете определить котегорию услуги.
             </p>
-            <img src="/layout/images/image%2026.png" alt="" class="tour-system__img">
+            <img src="/layout/images/image26.png" alt="" class="tour-system__img">
           </div>
         </AccordionTab>
         <AccordionTab>
@@ -403,20 +403,20 @@ const youtube = () => {
             <p class="tour-system__description">
               Чтобы записать пациента на прием, перейдите в раздел «Календарь». Перед вами появится график работы доктора на сегодняшний день.
             </p>
-            <img src="/layout/images/image%2025(9).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(9).png" alt="" class="tour-system__img">
             <p class="tour-system__description">
               Затем заполняете карточку (обязательные поля обозначены *). Пример заполнения карточки доктора показано на рисунках ниже:
             </p>
-            <img src="/layout/images/image%2025(10).png" alt="" class="tour-system__img">
-            <img src="/layout/images/image%2025(11).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(10).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(11).png" alt="" class="tour-system__img">
             <p class="tour-system__description">
               Затем заполняете карточку (обязательные поля обозначены *). Пример заполнения карточки доктора показано на рисунках ниже:
             </p>
-            <img src="/layout/images/image%2025(12).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(12).png" alt="" class="tour-system__img">
             <p class="tour-system__description">
               Затем заполняете карточку (обязательные поля обозначены *). Пример заполнения карточки доктора показано на рисунках ниже:
             </p>
-            <img src="/layout/images/image%2025(13).png" alt="" class="tour-system__img">
+            <img src="/layout/images/image25(13).png" alt="" class="tour-system__img">
             <p class="tour-system__description">
               Затем заполняете карточку (обязательные поля обозначены *). Пример заполнения карточки доктора показано на рисунках ниже:
             </p>
