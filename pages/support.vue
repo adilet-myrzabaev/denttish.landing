@@ -2,7 +2,7 @@
   <div>
     <section class="px-4">
       <div class="grid">
-        <div class="col-12 md:col-6 pr-8">
+        <div class="col-12 md:col-6 md:pr-8">
           <img class="w-full border-round-3xl" src="/layout/images/support-banner.png" alt="">
         </div>
         <div class="col-12 md:col-6">
@@ -26,7 +26,8 @@
         v-model:visible="visible"
         modal
         header="Вопрос поддержки"
-        class="main-dialog w-4rem sm:w-30rem"
+        :style="{ width: '50rem' }"
+        class="main-dialog"
       >
         <div class="grid mt-2 border-top-1 pt-5">
           <div class="col-12 md:col-6 pl-0">
@@ -34,7 +35,7 @@
               <InputText class="w-full" placeholder="Имя" />
             </form>
           </div>
-          <div class="col-12 md:col-6 pr-0">
+          <div class="col-12 md:col-6 pr-0 pl-0 md:pl-2">
             <form action="" class="form form--tariff">
               <InputText placeholder="Электронная почта" />
             </form>
@@ -87,7 +88,7 @@
         </div>
       </div>
     </section>
-    <more-about-us />
+    <more-about-us img-class="w-full" />
     <section class="px-4">
       <div class="grid">
         <div class="col-12 md:col-3">
@@ -99,7 +100,7 @@
             <p class="description--support description--support-small">
               Свежые новости и акции в инстаграме посмотрите и подпишитесь
             </p>
-            <Button class="btn btn-link btn-link--aqua">
+            <Button class="btn btn-link btn-link--aqua" @click="window.open('https://www.instagram.com/denttish.dev')">
               <span class="btn-link__caption">Посмотреть</span>
               <div class="bg-link bg-link--blue">
                 <img class="bg-link__img" src="/layout/images/Arrow-white.svg" alt="">

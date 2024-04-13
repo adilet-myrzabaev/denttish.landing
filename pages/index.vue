@@ -188,7 +188,7 @@
         <h2 class="caption caption--middle">
           Что говорят наши клиенты
         </h2>
-        <nuxt-link class="flex items-end mr-2.5 text-black font-bold text-sm white-space-nowrap md:text-2xl" to="/reviews">
+        <nuxt-link class="hidden sm:flex items-end mr-2.5 text-black font-bold text-sm white-space-nowrap md:text-2xl" to="/reviews">
           Все отзывы
           <span class="ml-1">&gt;</span>
         </nuxt-link>
@@ -279,6 +279,12 @@
           </div>
         </TabPanel>
       </TabView>
+      <div class="flex align-items-center justify-center mt-3">
+        <nuxt-link class="mx-auto text-black font-bold text-sm white-space-nowrap md:text-2xl" to="/reviews">
+          Все отзывы
+          <span class="ml-1">&gt;</span>
+        </nuxt-link>
+      </div>
     </section>
     <!--  clinics use our program -->
     <section class="px-4">

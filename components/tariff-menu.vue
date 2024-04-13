@@ -346,7 +346,7 @@
                 <InputText class="w-full" placeholder="Имя" />
               </form>
             </div>
-            <div class="col-12 md:col-6 pr-0">
+            <div class="col-12 md:col-6 pr-0 pl-0 md:pl-2">
               <form action="" class="form form--tariff">
                 <InputNumber placeholder="Номер телефона" />
               </form>
@@ -356,7 +356,7 @@
                 <InputText placeholder="Электронная почта" />
               </form>
             </div>
-            <div class="col-12 md:col-6 pr-0">
+            <div class="col-12 md:col-6 pr-0 pl-0 md:pl-2">
               <form action="" class="form form--tariff">
                 <InputText placeholder="Названия клиника" />
               </form>

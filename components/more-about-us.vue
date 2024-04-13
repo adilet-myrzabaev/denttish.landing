@@ -3,7 +3,7 @@
     <section class="px-4">
       <div class="grid">
         <div class="col-12 md:col-7" :class="newClass">
-          <img src="/layout/images/more.png" alt="">
+          <img :class="imgClass" src="/layout/images/more.png" alt="">
         </div>
         <div class="col-12 md:col-5 ">
           <div>
@@ -41,7 +41,7 @@
             <InputText class="w-full" placeholder="Имя" />
           </form>
         </div>
-        <div class="col-12 md:col-6 pr-0">
+        <div class="col-12 md:col-6 pr-0 pl-0 md:pl-2">
           <form action="" class="form form--tariff">
             <InputNumber placeholder="Телефон" />
           </form>
@@ -61,6 +61,8 @@
 
 <script setup lang="ts">
 defineProps({
+  // eslint-disable-next-line vue/require-default-prop
+  imgClass: String,
   // eslint-disable-next-line vue/require-default-prop
   newClass: String
 })

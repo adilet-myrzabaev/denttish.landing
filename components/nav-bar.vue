@@ -34,7 +34,7 @@ const items = ref([
     label: 'Тур в системе',
     activeClass: '',
     command: () => {
-      router.push('/tourSystem')
+      router.push('/systemTour')
     }
   },
   {
