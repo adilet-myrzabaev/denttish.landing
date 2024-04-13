@@ -94,6 +94,10 @@
 
 <script setup lang="ts">
 import Tariff from '../components/tariff-menu.vue'
+
+useHead({
+  title: 'Denttish | Цена'
+})
 </script>
 <style scoped lang="scss">
 .menu-service{

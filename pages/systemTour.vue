@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useHead({
+  title: 'Denttish | Тур в системе'
+})
+
 const youtube = () => {
   window.open('https://www.youtube.com/watch?v=4')
 }

@@ -108,7 +108,9 @@
 </template>
 
 <script setup lang="ts">
-
+useHead({
+  title: 'Denttish | Отзывы'
+})
 </script>
 
 <style scoped>

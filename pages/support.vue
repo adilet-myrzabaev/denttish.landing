@@ -166,6 +166,11 @@
 
 <script setup lang="ts">
 import MoreAboutUs from '../components/more-about-us.vue'
+
+useHead({
+  title: 'Denttish | Поддержка'
+})
+
 const visible = ref(false)
 </script>
 
