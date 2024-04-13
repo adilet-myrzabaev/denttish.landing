@@ -27,7 +27,7 @@
     </section>
     <!--  potential our program  -->
     <section class="sm:px-5">
-      <div class="grid sm:border-round-4xl px-3 py-6" style="background-color: #D6E2E0; padding: 78px 80px">
+      <div class="grid border-round-4xl px-3 py-6" style="background-color: #D6E2E0; padding: 78px 80px">
         <div class="col-12 md:col-7">
           <div class="h-full flex flex-column h-full justify-center">
             <h1 class="caption caption--middle mb-4">
@@ -37,7 +37,7 @@
               DentTish открывает широкие возможности для клиник и медицинских учреждений в области управления и предоставления заботы пациентам. Некоторые из ключевых возможностей включают:
             </p>
             <Button class="btn btn-link btn-link--blue">
-              <span class="btn-link__caption">Прочитать</span>
+              <span class="btn-link__caption"><span class="hidden md:flex">Прочитать</span><span class="flex md:hidden">Дочитать</span></span>
               <div class="bg-link bg-link--blue">
                 <img class="bg-link__img" src="/layout/images/Arrow-white.svg" alt="">
               </div>
@@ -46,7 +46,7 @@
         </div>
         <div class="col-12 md:col-5">
           <div class="grid">
-            <div class="col-6 md:pr-4 md:pb-4">
+            <div class="col-6 pr-3 md:pr-4 pb-3 md:pb-4">
               <div class="card">
                 <div class="bg-link bg-link--aqua">
                   <img class="bg-link__img" src="/layout/images/check.svg" alt="">
@@ -56,7 +56,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-6 md:pl-4 md:pb-4">
+            <div class="col-6 pl-3 md:pl-4 pb-3 md:pb-4">
               <div class="card">
                 <div class="bg-link bg-link--aqua">
                   <img class="bg-link__img" src="/layout/images/msg.svg" alt="">
@@ -67,7 +67,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-6 md:pr-4 md:pt-4">
+            <div class="col-6 pr-3 md:pr-4 pt-3 md:pt-4">
               <div class="card">
                 <div class="bg-link bg-link--aqua">
                   <img class="bg-link__img" src="/layout/images/setka.svg" alt="">
@@ -78,7 +78,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-6 md:pl-4 md:pt-4">
+            <div class="col-6 pl-3 md:pl-4 pt-3 md:pt-4">
               <div class="card">
                 <div class="bg-link bg-link--aqua">
                   <img class="bg-link__img" src="/layout/images/calculator.svg" alt="">
@@ -98,7 +98,7 @@
         Кому предназначена
         наш программа?
       </h1>
-      <div class="grid">
+      <div class="hidden md:flex grid ">
         <div class="col-12 md:col-6 pr-8">
           <Accordion class="our-program" :active-index="0">
             <AccordionTab header="Владельцам">
@@ -138,11 +138,24 @@
           </div>
         </div>
       </div>
+      <div class="flex md:hidden our-program-tab ">
+        <TabView>
+          <TabPanel header="Владельцам">
+            <p>DentTish - ключ к процветанию владельца клиники. Этот интегрированный инструмент обеспечивает не только увеличение прибыльности и оптимизацию операционных процессов, но также повышает качество обслуживания пациентов, соблюдает стандарты конфиденциальности и поддерживает рост бизнеса через привлечение новых клиентов и удержание существующих. Владельцу DentTish предоставляет уникальную возможность успешного развития своей клиники в динамичной сфере здравоохранения. <span class="text-blue-500 cursor-pointer">еще...</span></p>
+          </TabPanel>
+          <TabPanel header="Врачам">
+            <p>lorem</p>
+          </TabPanel>
+          <TabPanel header="Администраторам">
+            <p>Lorem.</p>
+          </TabPanel>
+        </TabView>
+      </div>
     </section>
     <!--  demo version  -->
-    <section class="bg-[#fff]">
+    <section class="md:bg-[#fff]">
       <div class="grid">
-        <div class="col-12 md:col-6 pl-8">
+        <div class="col-12 md:col-6 px-4 md:pl-8">
           <div class="h-full flex flex-column justify-center">
             <h2 class="caption caption--small mb-3">
               Пробная версия
@@ -158,7 +171,7 @@
             </Button>
           </div>
         </div>
-        <div class="col-12 md:col-6 p-0">
+        <div class="col-12 md:col-6 p-0 order--1 md:order-1">
           <div class="bg-out-container">
             <img class="bg-out-container__img" src="/layout/images/demo-version-img.png" alt="">
           </div>
@@ -166,7 +179,7 @@
       </div>
     </section>
     <!--  more about us  -->
-    <more-about-us />
+    <more-about-us new-class="hidden md:flex" />
     <!--  tariff  -->
     <tariff />
     <!--  reviews  -->
@@ -175,7 +188,7 @@
         <h2 class="caption caption--middle">
           Что говорят наши клиенты
         </h2>
-        <nuxt-link class="flex items-end mr-2.5 text-black font-bold text-2xl" to="/reviews">
+        <nuxt-link class="flex items-end mr-2.5 text-black font-bold text-sm white-space-nowrap md:text-2xl" to="/reviews">
           Все отзывы
           <span class="ml-1">&gt;</span>
         </nuxt-link>
@@ -273,17 +286,17 @@
         Стоматологии, которые используют систему DentTish
       </h2>
       <div class="grid justify-center gap-y-2">
-        <div class="col-12 md:col-3">
+        <div class="col-6 md:col-3">
           <div class="card card--clinic">
             <img src="/layout/images/smaildentclinic.svg" alt="">
           </div>
         </div>
-        <div class="col-12 md:col-3">
+        <div class="col-6 md:col-3">
           <div class="card card--clinic">
             <img src="/layout/images/aziadentclinic.svg" alt="">
           </div>
         </div>
-        <div class="col-12 md:col-3">
+        <div class="col-6 md:col-3">
           <div class="card card--clinic">
             <h4 class="card--clinic__caption">
               Эсте лайт
@@ -291,7 +304,7 @@
             <img src="/layout/images/icon-clinics.svg" alt="">
           </div>
         </div>
-        <div class="col-12 md:col-3">
+        <div class="col-6 md:col-3">
           <div class="card card--clinic">
             <h4 class="card--clinic__caption">
               Даминов
@@ -299,7 +312,7 @@
             <img src="/layout/images/icon-clinics.svg" alt="">
           </div>
         </div>
-        <div class="col-12 md:col-3">
+        <div class="col-6 md:col-3">
           <div class="card card--clinic">
             <h4 class="card--clinic__caption">
               Умай
@@ -307,7 +320,7 @@
             <img src="/layout/images/icon-clinics.svg" alt="">
           </div>
         </div>
-        <div class="col-12 md:col-3">
+        <div class="col-6 md:col-3">
           <div class="card card--clinic">
             <h4 class="card--clinic__caption">
               Сапат
@@ -315,7 +328,7 @@
             <img src="/layout/images/icon-clinics.svg" alt="">
           </div>
         </div>
-        <div class="col-12 md:col-4">
+        <div class="col-6 md:col-4">
           <div class="card card--clinic">
             <h4 class="card--clinic__caption">
               Доктор Муслим

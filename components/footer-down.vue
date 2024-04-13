@@ -1,9 +1,9 @@
 <template>
   <footer class="footer px-4">
-    <div class="grid border-bottom-1 px-5 pb-8">
+    <div class="grid border-bottom-1 sm:px-5 sm:pb-8">
       <div class="col-12 md:col-4">
         <div class="flex items-center">
-          <img src="/layout/images/logo.svg" alt="">
+          <img class="footer__logo-img" src="/layout/images/logo.svg" alt="">
           <h4 class="footer__logo-title">
             DentTish
           </h4>
@@ -11,16 +11,16 @@
         <p class="footer__logo-description mb-5">
           Управляйте улыбками с легкостью
         </p>
-        <div class="flex items-center gap-4">
+        <div class="hidden sm:flex items-center gap-4">
           <img class="cursor-pointer" src="/layout/images/tik-tok.svg" alt="">
           <img class="cursor-pointer" src="/layout/images/Facebook-icon.svg" alt="">
           <img class="cursor-pointer" src="/layout/images/Instagram-icon.svg" alt="">
           <img class="cursor-pointer" src="/layout/images/YouTube-icon.svg" alt="">
         </div>
       </div>
-      <div class="col-12 md:col-8">
+      <div class="col-12 md:col-8 mb-6 sm:mb-0">
         <div class="grid">
-          <div class="col-12 md:col-4">
+          <div class="col-6 md:col-4">
             <ul class="list-menu">
               <h4 class="list-menu__caption">
                 Сайт
@@ -47,7 +47,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-12 md:col-4">
+          <div class="col-6 md:col-4">
             <ul class="list-menu">
               <h4 class="list-menu__caption">
                 Ссылки
@@ -74,7 +74,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-12 md:col-4">
+          <div class="col-6 md:col-4">
             <ul class="list-menu">
               <h4 class="list-menu__caption">
                 Контакт
@@ -102,6 +102,12 @@
             </ul>
           </div>
         </div>
+      </div>
+      <div class="flex sm:hidden items-center mx-auto gap-3 mb-2">
+        <img class="cursor-pointer w-1.5rem" src="/layout/images/tik-tok.svg" alt="">
+        <img class="cursor-pointer w-1.5rem" src="/layout/images/Facebook-icon.svg" alt="">
+        <img class="cursor-pointer w-1.5rem" src="/layout/images/Instagram-icon.svg" alt="">
+        <img class="cursor-pointer w-1.5rem" src="/layout/images/YouTube-icon.svg" alt="">
       </div>
     </div>
     <p class="text-center mt-4">

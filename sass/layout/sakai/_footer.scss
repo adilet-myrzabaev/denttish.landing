@@ -18,43 +18,25 @@
         text-align: left;
     }
 }
-.list-menu{
-    list-style: none;
-    &__caption{
-        color: #ffffff;
-        font-size: 18.87px;
-        font-weight: 700;
-        line-height: 23.59px;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    &__description{
-        color: #ffffff;
-        font-family: "Gilroy", sans-serif;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 23.59px;
-        text-align: left;
-        margin-bottom: 10px;
-    }
-    &--tariff{
-        display: flex;
-        flex-direction: column;
-        & > li {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .bg-img{
-            width: 30px;
-            height: 30px;
-            background-color: #1479FF;
-            border-radius: 50%;
-            margin-right: 10px;
 
-            display: flex;
-            align-items: center;
-            justify-content: center;
+
+@media screen and (max-width: 576px) {
+    .footer{
+        padding: 25px 15px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .footer{
+        &__logo-img{
+            width: 32px;
+        }
+        &__logo-title{
+            font-size: 18px;
+        }
+        &__logo-description{
+            font-size: 12px;
+            line-height: 27px;
         }
     }
 }

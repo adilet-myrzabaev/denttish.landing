@@ -1,6 +1,6 @@
 <template>
   <div>
-    <tarrif />
+    <tariff />
     <section class="px-4">
       <div class="grid">
         <div class="col-12 md:col-6">
@@ -93,7 +93,7 @@
 </template>
 
 <script setup lang="ts">
-import Tarrif from '../components/tariff-menu.vue'
+import Tariff from '../components/tariff-menu.vue'
 </script>
 <style scoped lang="scss">
 .menu-service{
@@ -103,6 +103,9 @@ import Tarrif from '../components/tariff-menu.vue'
     margin-bottom: 20px;
     &:last-child {
     margin-bottom: 0;
+    }
+    & img{
+      width: 4rem;
     }
   }
   &__caption{
@@ -119,6 +122,28 @@ import Tarrif from '../components/tariff-menu.vue'
     line-height: 25px;
     text-align: left;
     min-height: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .menu-service{
+    padding: 0 10px;
+    &__caption{
+      font-size: 14px;
+      margin: 10px 0;
+    }
+    &__description{
+      font-size: 12px;
+      line-height: 20px;
+      min-height: 100%;
+      margin-bottom: 30px;
+    }
+    li img{
+      width: 3rem;
+    }
+  }
+  .card{
+    border-radius: 10px;
   }
 }
 </style>

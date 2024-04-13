@@ -26,8 +26,7 @@
         v-model:visible="visible"
         modal
         header="Вопрос поддержки"
-        :style="{ width: '50rem' }"
-        class="main-dialog"
+        class="main-dialog w-4rem sm:w-30rem"
       >
         <div class="grid mt-2 border-top-1 pt-5">
           <div class="col-12 md:col-6 pl-0">

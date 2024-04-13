@@ -39,3 +39,31 @@
     padding: 43px 26px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .card{
+    &--clinic{
+      padding: 20px 10px !important;
+      height: 100%;
+      & img{
+        width: 100%;
+      }
+      &__caption{
+        font-size: 14px;
+      }
+    }
+    &--support{
+      border-radius: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .card{
+    padding: 20px 10px;
+    justify-content: flex-start;
+    &__description{
+      font-size: 12px;
+    }
+  }
+}

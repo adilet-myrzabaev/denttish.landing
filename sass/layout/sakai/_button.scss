@@ -72,3 +72,25 @@
     background-color: #1479FF !important;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .btn--tab-menu{
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    line-height: 14.5px;
+    &:hover{
+      background: #1479FF !important;
+    }
+  }
+}
+
+@media screen and (max-width: 414px){
+  .btn-link{
+    padding: 7px 10px 7px 20px;
+    &__caption{
+      margin-right: 20px;
+      font-size: 12px;
+    }
+  }
+}

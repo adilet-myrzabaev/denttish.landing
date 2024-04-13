@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <ul class="list-none">
+  <div class="overflow-hidden">
+    <ul class="list-none pl-0 px-4">
       <li class="mb-8">
         <div class="grid items-start">
-          <div class="col-3">
+          <div class="col-12 md:col-3">
             <div class="flex items-center">
-              <img src="/layout/images/avatar3.png" alt="">
+              <img class="w-4rem md:w-6rem" src="/layout/images/avatar3.png" alt="">
               <div class="ml-4">
                 <span class="tabview-custom__name">
                   Доктор Болот
@@ -16,7 +16,7 @@
               </div>
             </div>
           </div>
-          <div class="col-9">
+          <div class="col-12 md:col-9">
             <div>
               <h4 class="tabview-custom__caption">
                 “Система “Denttish”
@@ -28,7 +28,7 @@
                 <span class="star" />
                 <span class="star" />
               </div>
-              <p class="tabview-custom__description pr-8">
+              <p class="tabview-custom__description md:pr-8">
                 "Система "Denttish" для стоматологических клиник просто супер!  Она помогает нам легко записывать пациентов, вести их медицинские карты и даже управлять финансами. Удобный интерфейс делает  работу очень простой. Эта программа стала нашим помощником, и я всем своим коллегам стоматологам советую использовать "Denttish" - уверен, они оценят, как легко с ней работать. Мы больше не тратим массу времени на рутинные задачи, такие как учет пациентов или составление отчетности. Система автоматизирует эти процессы, освобождая нам время для более важных аспектов работы с пациентами."
               </p>
             </div>
@@ -37,9 +37,9 @@
       </li>
       <li class="mb-8">
         <div class="grid items-start">
-          <div class="col-3">
+          <div class="col-12 md:col-3">
             <div class="flex items-center">
-              <img src="/layout/images/avatar1.png" alt="">
+              <img class="w-4rem md:w-6rem" src="/layout/images/avatar1.png" alt="">
               <div class="ml-4">
                 <span class="tabview-custom__name">
                   Доктор Шергазы
@@ -50,7 +50,7 @@
               </div>
             </div>
           </div>
-          <div class="col-9">
+          <div class="col-12 md:col-9">
             <div>
               <h4 class="tabview-custom__caption">
                 “CRM система помагла”
@@ -71,9 +71,9 @@
       </li>
       <li class="mb-8">
         <div class="grid items-start">
-          <div class="col-3">
+          <div class="col-12 md:col-3">
             <div class="flex items-center">
-              <img src="/layout/images/avatar2.png" alt="">
+              <img class="w-4rem md:w-6rem" src="/layout/images/avatar2.png" alt="">
               <div class="ml-4">
                 <span class="tabview-custom__name">
                   Доктор Чынгыз
@@ -84,7 +84,7 @@
               </div>
             </div>
           </div>
-          <div class="col-9">
+          <div class="col-12 md:col-9">
             <div>
               <h4 class="tabview-custom__caption">
                 “Ыраазычылык билдирем”

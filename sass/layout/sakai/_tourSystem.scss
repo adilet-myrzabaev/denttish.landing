@@ -46,6 +46,7 @@
     line-height: 35px;
     text-align: left;
     margin-bottom: 35px;
+    margin-top: 10px;
   }
   &__description{
     font-family: "Gilroy", sans-serif;
@@ -60,5 +61,38 @@
     object-fit: cover;
     object-position: center;
     margin-bottom: 30px;
+  }
+}
+.tour-system-mobile{
+  background-color: #ffffff;
+  border-radius: 15px;
+  .p-accordion-tab .p-accordion-header .p-accordion-header-action{
+    display: flex;
+    justify-content: space-between;
+  }
+  .p-accordion-header .p-accordion-header-link{
+    background: transparent;
+    border: none 0;
+  }
+  .p-accordion-content{
+    border: none;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .tour-system{
+    &__caption{
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    &__description{
+      font-size: 12px;
+      line-height: 18.5px;
+      margin-bottom: 15px;
+    }
+    &__img{
+      margin-bottom: 15px;
+    }
   }
 }

@@ -121,3 +121,70 @@
     text-align: left;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .tab-menu-price{
+    padding: 30px 15px;
+    .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+      font-size: 12px;
+      padding: 10px 13px;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+    &__description--service{
+      font-size: 14px;
+      line-height: 15px;
+    }
+    &__new-price{
+      font-size: 36px;
+    }
+    &__old-price{
+      font-size: 25px;
+    }
+    &__description{
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  .tabview-custom{
+    flex-direction: column;
+    .p-tabview-nav {
+      flex-direction: row;
+
+      li .p-tabview-nav-link{
+        padding: 8px 20px 8px 10px;
+
+        .p-avatar{
+          width: 42px;
+          height: 42px;
+        }
+      }
+    }
+    &__name{
+      font-size: 10px;
+      line-height: 10px;
+      margin-bottom: 10px;
+    }
+    &__prof{
+      font-size: 8px;
+      line-height: 10px;
+    }
+    &__caption{
+      font-size: 14px;
+      line-height: 15px;
+    }
+    &__description{
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+  .star-group{
+    margin-bottom: 0;
+    .star{
+      height: 20px;
+      transform: scale(0.7);
+      &:after{
+      }
+    }
+  }
+}

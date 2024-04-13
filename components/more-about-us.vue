@@ -2,7 +2,7 @@
   <div>
     <section class="px-4">
       <div class="grid">
-        <div class="col-12 md:col-7 ">
+        <div class="col-12 md:col-7" :class="newClass">
           <img src="/layout/images/more.png" alt="">
         </div>
         <div class="col-12 md:col-5 ">
@@ -60,5 +60,9 @@
 </template>
 
 <script setup lang="ts">
+defineProps({
+  // eslint-disable-next-line vue/require-default-prop
+  newClass: String
+})
 const visible = ref(false)
 </script>

@@ -2,10 +2,10 @@
   <div>
     <section class="px-4">
       <div class="tab-menu-price">
-        <h2 class="caption caption--small mb-3 line-height-2 mb-6">
+        <h2 class="caption caption--small mb-3 line-height-2 mb-6 text-center md:text-left">
           Тарифные планы USD
         </h2>
-        <div class="flex items-center justify-end mb--15 gap-6">
+        <div class="flex items-center justify-center md:justify-end md:mb--15 gap-6 border-[#092C4C] border-bottom-1 md:border-none pb-4 md:pb-0">
           <Button
             class="btn btn--tab-menu z-20"
             :style="!tabItems ? 'background-color: #1479FF; color: #fff' : ''"
@@ -21,11 +21,11 @@
             1 Год
           </Button>
         </div>
-        <TabView>
+        <TabView class="mt-4 md:mt-0">
           <TabPanel header="1 кресло">
             <div class="grid">
               <div class="col-12 md:col-5">
-                <div v-if="tabItems" class="flex items-center gap-8">
+                <div v-if="tabItems" class="flex items-center justify-content-between md:justify-content-start gap-8">
                   <p class="tab-menu-price__new-price">
                     100 $
                   </p>
@@ -33,7 +33,7 @@
                     120 $
                   </p>
                 </div>
-                <div v-else class="flex items-center gap-8">
+                <div v-else class="flex items-center justify-content-between md:justify-content-start gap-8">
                   <p class="tab-menu-price__new-price">
                     10 $
                   </p>
@@ -51,9 +51,9 @@
                   Купить
                 </Button>
               </div>
-              <div class="col-12 md:col-7">
-                <div class="flex ">
-                  <ul class="list-menu list-menu--tariff">
+              <div class="col-12 md:col-7 order--1 md:order-1 pl-6 md:pl-0">
+                <div class="flex flex-column md:flex-row">
+                  <ul class="list-menu list-menu--tariff mb-0 md:mb-3">
                     <li>
                       <div class="bg-img">
                         <img src="/layout/images/check-icon.svg" alt="">
@@ -87,7 +87,7 @@
                       </p>
                     </li>
                   </ul>
-                  <ul class="list-menu list-menu--tariff">
+                  <ul class="list-menu list-menu--tariff mt-0 md:mt-3">
                     <li>
                       <div class="bg-img">
                         <img src="/layout/images/check-icon.svg" alt="">
@@ -128,7 +128,7 @@
           <TabPanel header="2-4 кресло">
             <div class="grid">
               <div class="col-12 md:col-5">
-                <div v-if="tabItems" class="flex items-center gap-8">
+                <div v-if="tabItems" class="flex items-center justify-content-between md:justify-content-start gap-8">
                   <p class="tab-menu-price__new-price">
                     400 $
                   </p>
@@ -154,9 +154,9 @@
                   Купить
                 </Button>
               </div>
-              <div class="col-12 md:col-7">
-                <div class="flex ">
-                  <ul class="list-menu list-menu--tariff">
+              <div class="col-12 md:col-7 order--1 md:order-1 pl-6 md:pl-0">
+                <div class="flex flex-column md:flex-row">
+                  <ul class="list-menu list-menu--tariff mb-0 md:mb-3">
                     <li>
                       <div class="bg-img">
                         <img src="/layout/images/check-icon.svg" alt="">
@@ -190,7 +190,7 @@
                       </p>
                     </li>
                   </ul>
-                  <ul class="list-menu list-menu--tariff">
+                  <ul class="list-menu list-menu--tariff mt-0 md:mt-3">
                     <li>
                       <div class="bg-img">
                         <img src="/layout/images/check-icon.svg" alt="">
@@ -231,7 +231,7 @@
           <TabPanel header="5+ кресло">
             <div class="grid">
               <div class="col-12 md:col-5">
-                <div v-if="tabItems" class="flex items-center gap-8">
+                <div v-if="tabItems" class="flex items-center justify-content-between md:justify-content-start gap-8">
                   <p class="tab-menu-price__new-price">
                     700 $
                   </p>
@@ -257,9 +257,9 @@
                   Купить
                 </Button>
               </div>
-              <div class="col-12 md:col-7">
-                <div class="flex ">
-                  <ul class="list-menu list-menu--tariff">
+              <div class="col-12 md:col-7 order--1 md:order-1 pl-6 md:pl-0">
+                <div class="flex flex-column md:flex-row">
+                  <ul class="list-menu list-menu--tariff mb-0 md:mb-3">
                     <li>
                       <div class="bg-img">
                         <img src="/layout/images/check-icon.svg" alt="">
@@ -293,7 +293,7 @@
                       </p>
                     </li>
                   </ul>
-                  <ul class="list-menu list-menu--tariff">
+                  <ul class="list-menu list-menu--tariff mt-0 md:mt-3">
                     <li>
                       <div class="bg-img">
                         <img src="/layout/images/check-icon.svg" alt="">
