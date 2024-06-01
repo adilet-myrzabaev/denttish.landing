@@ -24,8 +24,8 @@ devDependencies:
     specifier: ^0.16.1
     version: 0.16.1(histoire@0.16.2)(vite@4.3.9)(vue@3.3.4)
   '@iconify-json/carbon':
-    specifier: ^1.1.18
-    version: 1.1.18
+    specifier: ^1.1.34
+    version: 1.1.34
   '@iconify-json/mdi':
     specifier: ^1.1.52
     version: 1.1.52
@@ -1049,8 +1049,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon@1.1.18:
-    resolution: {integrity: sha512-RbKET6KS9xUMeYVq1FUH3UUA7AYNcnApkHt2AccCwTWTQQs/O58ji4Of6z6PhRajGlbfvrJzT/Uqh19OKECRvA==}
+  /@iconify-json/carbon@1.1.34:
+    resolution: {integrity: sha512-azvhc5HP+CilSrzSEfP4MezsG5n4tj+vIJLADhqCbFM1BOAmyDe/K1lTL9GLDluybsCvSqb15+6AIRb1jtKhpQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1139,14 +1139,14 @@ packages:
       source-map: 0.6.1
     dev: true
 
+  /@intlify/shared@10.0.0-beta.1:
+    resolution: {integrity: sha512-61MnYhgqS/TyAto9CXOltHlhK2WflLBcKpIkRhZCUL2IkiVvh7qKevsqZ3RYZylyC3q19ajLW6mB+iJtnbAOpg==}
+    engines: {node: '>= 16'}
+    dev: true
+
   /@intlify/shared@9.3.0-beta.17:
     resolution: {integrity: sha512-mscf7RQsUTOil35jTij4KGW1RC9SWQjYScwLxP53Ns6g24iEd5HN7ksbt9O6FvTmlQuX77u+MXpBdfJsGqizLQ==}
     engines: {node: '>= 14'}
-    dev: true
-
-  /@intlify/shared@9.4.1:
-    resolution: {integrity: sha512-A51elBmZWf1FS80inf/32diO9DeXoqg9GR9aUDHFcfHoNDuT46Q+fpPOdj8jiJnSHSBh8E1E+6qWRhAZXdK3Ng==}
-    engines: {node: '>= 16'}
     dev: true
 
   /@intlify/unplugin-vue-i18n@0.10.1(vue-i18n@9.3.0-beta.17):
@@ -11603,7 +11603,7 @@ packages:
       vue-router:
         optional: true
     dependencies:
-      '@intlify/shared': 9.4.1
+      '@intlify/shared': 10.0.0-beta.1
       '@intlify/vue-i18n-bridge': 0.8.0(vue-i18n@9.3.0-beta.17)
       '@intlify/vue-router-bridge': 0.8.0(vue@3.3.4)
       ufo: 1.1.2
